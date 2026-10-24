@@ -1,0 +1,77 @@
+{
+  "format": "bf6-plugin-releases",
+  "version": 1,
+  "plugins": {
+    "BF6_Extended_Terrain": {
+      "version": "2.0.0",
+      "tag": "BF6_Extended_Terrain-v2.0.0",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Extended_Terrain-v2.0.0/BF6_Extended_Terrain-2.0.0.zip",
+      "sha256": "fbbd82fd06d01bedd41aa179092c1fce103b6809e21b339d77a4ef812b51c8dd",
+      "size": 2529370,
+      "changes": "Reads the terrain and the distant landscape from your Battlefield 6 install through High Poly, so it now needs High Poly installed, like Player Controller. Nothing is downloaded any more and nothing is saved into your map. A \"Remove old downloaded terrain\" button clears what earlier versions placed and downloaded.",
+      "history": {
+        "1.2.0": "Open Extended Terrain in the Toolbox using the shared season style. Read terrain indexes and terrain packs from the Toolbox repository.",
+        "1.2.1": "Comes with the Toolbox, which now installs with the plugin itself, with or without BF6 Home. It lists every plugin with its installed version, shows when an update is available and what changed before you update, and can add the other released plugins."
+      }
+    },
+    "BF6_Godot_Early_Bird": {
+      "version": "1.0.0",
+      "tag": "BF6_Godot_Early_Bird-v1.0.0",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_Early_Bird-v1.0.0/BF6_Godot_Early_Bird-1.0.0.zip",
+      "sha256": "1ede31a3b5c2337585e63e9dfde7ec67f4e43a806f102d46c7da671b4c185889",
+      "size": 2552801,
+      "changes": "First release. Installs maps your game has that the Portal SDK does not ship yet, as SDK level scenes with their objects in the Object Library, and removes them again. Needs High Poly.",
+      "history": {}
+    },
+    "BF6_Godot_Gamemode_Setup": {
+      "version": "2.0.0",
+      "tag": "BF6_Godot_Gamemode_Setup-v2.0.0",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_Gamemode_Setup-v2.0.0/BF6_Godot_Gamemode_Setup-2.0.0.zip",
+      "sha256": "08a849012f751a710951cd6de52451323e3e6cf485955769b90ab1c24c07041d",
+      "size": 2931158,
+      "changes": "Reads every layout from your Battlefield 6 install through High Poly, so it now needs High Poly installed. Layouts are no longer downloaded. Carrier Strike builds without the carrier model preview.",
+      "history": {
+        "1.6.0": "Open Game Mode Setup in the Toolbox. Wrap long labels and fit the panel into narrow docks. Read layout indexes and published layout data from the Toolbox repository.",
+        "1.6.1": "Comes with the Toolbox, which now installs with the plugin itself, with or without BF6 Home. It lists every plugin with its installed version, shows when an update is available and what changed before you update, and can add the other released plugins."
+      }
+    },
+    "BF6_Godot_Player_Controller": {
+      "version": "1.0.0",
+      "tag": "BF6_Godot_Player_Controller-v1.0.0",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_Player_Controller-v1.0.0/BF6_Godot_Player_Controller-1.0.0.zip",
+      "sha256": "99908ce2e137105d9965838c1aa4ca24f93a7ca4820551b1655ed69983f10f07",
+      "size": 2533597,
+      "changes": "First release. Walk the map in first person from any soldier or loot spawner, or from the editor camera, as the soldier who stands there with their loadout. Needs High Poly.",
+      "history": {}
+    },
+    "BF6_Godot_SImple_Collisions": {
+      "version": "1.0.1",
+      "tag": "BF6_Godot_SImple_Collisions-v1.0.1",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_SImple_Collisions-v1.0.1/BF6_Godot_SImple_Collisions-1.0.1.zip",
+      "sha256": "38769d71d9a9db9562e2e0005ccab710db9003222c12113f53d14c0b1168d12f",
+      "size": 2548076,
+      "changes": "The Toolbox that comes with it lists the new tools: High Poly 3.0.0, Player Controller, Soundboard and Early Bird, and Game Mode Setup and Extended Terrain 2.0.0.",
+      "history": {
+        "1.0.0": "First release. Preview approximate collisions on drawn objects, with Show collision, Selected only and Isolate. Comes with the Toolbox, which now installs with the plugin itself, with or without BF6 Home. It lists every plugin with its installed version, shows when an update is available and what changed before you update, and can add the other released plugins."
+      }
+    },
+    "BF6_High_Poly_Godot_Plugin": {
+      "version": "3.0.0",
+      "tag": "v3.0.0",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/v3.0.0/BF6_High_Poly_Godot_Plugin-3.0.0.zip",
+      "sha256": "9a9b1a5da2d50dbd3dbbedf9e2f020a8247697abcbbad199195f2efd6b1c5c57",
+      "size": 11023461,
+      "changes": "Comes with the Toolbox. No longer ships any tables built from game data: everything is read from your install. Updates from 2.10 through a bridge release, and the updater now replaces libraries the editor has loaded instead of skipping them.",
+      "history": {}
+    },
+    "BF6_Soundboard": {
+      "version": "1.0.0",
+      "tag": "BF6_Soundboard-v1.0.0",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Soundboard-v1.0.0/BF6_Soundboard-1.0.0.zip",
+      "sha256": "fd4990cfb3639a8b8c6083a34d87d0080c7b746d97c4e3547a22e6b61f48e012",
+      "size": 2652324,
+      "changes": "First release. Every Portal sound by its exact SDK name, with search, filters and waveforms; play it from your install, copy the line that plays it, or place it in the map. Needs High Poly.",
+      "history": {}
+    }
+  }
+}
