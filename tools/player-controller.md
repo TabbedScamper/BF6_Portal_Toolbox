@@ -19,6 +19,8 @@ Player Controller without it.
 - WASD walks, Shift runs, Ctrl crouches, Space jumps, Esc stops and returns the
   camera.
 - Walk up to a vehicle and press E to drive it.
+- **Master** and **Effects** are the game's own volume sliders, the same pair
+  the Soundboard shows.
 - **Walk** on the BF6 radial menu does the same as the panel.
 
 ## Install

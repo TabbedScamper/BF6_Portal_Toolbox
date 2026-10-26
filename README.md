@@ -19,6 +19,7 @@ the copy of the game on your machine.
 | [Soundboard](tools/soundboard.md) | Every Portal sound by its exact SDK name, with search, filters and waveforms. Hear it, copy the script line that plays it, or place it. | High Poly |
 | [Early Bird](tools/early-bird.md) | Installs maps your game has that the SDK does not ship yet, as SDK level scenes with their objects in the Object Library. | High Poly |
 | [Game Mode Setup](tools/game-mode-setup.md) | Builds a map's official game mode layouts (Conquest, Breakthrough, Rush and the rest) as editable Portal objects. | High Poly |
+| [Bot Navigation](tools/bot-navigation.md) (beta) | Where bots can go on your map: the navigation rebuilt under your objects as you edit, where bots walk, crouch and crawl, what they cannot reach, and the route between two points. | High Poly |
 | [Extended Terrain](tools/extended-terrain.md) | Shows the ground outside the playable area and the distant landscape around it. | High Poly |
 | [Simple Collisions](tools/simple-collisions.md) | Draws a quick collision approximation over placed objects. | Nothing else |
 
@@ -41,9 +42,10 @@ from there.
 
 ## Updating from High Poly 2.10
 
-High Poly 2.10.0 updates itself to 3.0.0 through its own **Check for updates**
-button: it takes a small bridge release first, then 3.0.0 with the Toolbox.
-Restart the editor when it asks.
+High Poly 2.10.0 updates itself to the current 3.x through its own **Check for
+updates** button: it takes a small bridge release first, then 3.x with the
+Toolbox. Restart the editor when it asks. 3.0.0 updates straight to the new
+version, from the Toolbox or High Poly's own button.
 
 ## Requirements
 

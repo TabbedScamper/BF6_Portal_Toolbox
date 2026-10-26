@@ -25,6 +25,8 @@ Soundboard without it.
   clipboard.
 - **Place** adds the SDK's sound scene for that sound five metres in front of
   the editor camera, and selects it.
+- **Master** and **Effects** are the game's own volume sliders: sounds play as
+  loud as they are in the game.
 - Announcer voice-over is listed but cannot be played yet.
 
 The first start reads the install's sound list (about a minute). The list and
