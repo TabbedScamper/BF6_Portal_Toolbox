@@ -83,16 +83,17 @@
       }
     },
     "BF6_High_Poly_Godot_Plugin": {
-      "version": "3.2.0",
-      "tag": "v3.2.0",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/v3.2.0/BF6_High_Poly_Godot_Plugin-3.2.0.zip",
-      "sha256": "2c8adaf81b7863ea7a709bd3a16d2561ae25a69d06342e8cc23af29c86fa59c1",
-      "size": 11153637,
-      "changes": "Map indexes are kept when High Poly updates: from this version on an update no longer re-reads every map (this one still rebuilds them once). The caching screen has a Recache button beside each stage and on every map, to redo just that part. Bot navigation is built about forty times faster and can stand on a map's custom terrain, for Bot Navigation 0.3.0. The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand.",
+      "version": "3.2.1",
+      "tag": "v3.2.1",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/v3.2.1/BF6_High_Poly_Godot_Plugin-3.2.1.zip",
+      "sha256": "d13d0924f08bad402124e0a6dd21dfe782342ff3bf86e540e320374fb2ad4497",
+      "size": 11154548,
+      "changes": "Fixes the caching screen freezing in the Object previews stage, and a memory leak that let High Poly's memory grow with every texture it read: drawing every object icon reached over 40 GB and now stays flat. Walking with Player Controller no longer leaks memory either.",
       "history": {
         "3.0.0": "Comes with the Toolbox. No longer ships any tables built from game data: everything is read from your install. Updates from 2.10 through a bridge release, and the updater now replaces libraries the editor has loaded instead of skipping them.",
         "3.1.0": "Reads bot navigation for the new Bot Navigation tool, shares built geometry across maps and game updates, plays sounds at the game's own Master and Effects volume, and fixes Object Library icons, furniture cut-outs and prop paint after the October game update.",
-        "3.1.1": "Reads bot navigation for the new Bot Navigation tool, shares built geometry across maps and game updates, plays sounds at the game's own Master and Effects volume, and fixes Object Library icons, furniture cut-outs and prop paint after the October game update. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself."
+        "3.1.1": "Reads bot navigation for the new Bot Navigation tool, shares built geometry across maps and game updates, plays sounds at the game's own Master and Effects volume, and fixes Object Library icons, furniture cut-outs and prop paint after the October game update. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself.",
+        "3.2.0": "Map indexes are kept when High Poly updates: from this version on an update no longer re-reads every map (this one still rebuilds them once). The caching screen has a Recache button beside each stage and on every map, to redo just that part. Bot navigation is built about forty times faster and can stand on a map's custom terrain, for Bot Navigation 0.3.0. The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand."
       }
     },
     "BF6_Soundboard": {
