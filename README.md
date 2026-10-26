@@ -38,7 +38,9 @@ BF2042 Terrain.
    **Project > Project Settings > Plugins**.
 
 The Toolbox dock comes with every tool. From then on, add and update the others
-from there.
+from there. When several tools have updates, press **Update** on each of them
+before you restart the editor: they share the Toolbox's files, so they update
+together.
 
 ## Updating from High Poly 2.10
 

@@ -37,7 +37,7 @@ Setup, Extended Terrain and Bot Navigation read the game through.
 
 ## Install
 
-Download `BF6_High_Poly_Godot_Plugin-3.1.0.zip` from
+Download `BF6_High_Poly_Godot_Plugin-3.1.1.zip` from
 [Releases](../../../releases), unzip it into your Portal SDK project folder,
 and enable **BF6 High-Poly Preview** under
 **Project > Project Settings > Plugins**. The Toolbox dock comes with it.
@@ -45,5 +45,5 @@ and enable **BF6 High-Poly Preview** under
 ## Updating from 2.10
 
 Press **Check for updates** in High Poly 2.10.0. It installs a small bridge
-release first, which then installs 3.1.0 together with the Toolbox. Restart the
+release first, which then installs 3.1.1 together with the Toolbox. Restart the
 editor when it asks.
