@@ -2,7 +2,8 @@
 
 See where the game's bots can go on the open map, and what soldier bots will do
 on yours. The navigation is read from your own Battlefield 6 install through
-High Poly, and rebuilt under the objects you place as you edit.
+High Poly, and rebuilt under the objects you place, and on your custom terrain,
+as you edit.
 
 ## Needs
 
@@ -31,7 +32,8 @@ On **Soldier, your map**:
   ladder up to it.
 - **Grey**: no bot from your AI spawners, spawn points or selected markers can
   get here.
-- **White post**: a spawner with no navigation within 1.5 m.
+- **White post**: a start more than 5.5 m from any navigation. Bots spawned
+  there never move.
 - **Cyan line**: select two nodes, for example a spawner and then a capture
   point, to see the way a bot goes from the first to the second. When there is
   no way there, the panel says how far short bots get.
@@ -41,17 +43,32 @@ On **Soldier, your map**:
 - A doorway needs to be about 0.9 m wide; under about 0.76 m it never gets
   navigation, and in between it depends on where it falls on the game's grid.
 - Steps up to 0.4 m are walked; slopes up to just under 50 degrees.
-- Where the base map ships navigation under your objects, bots do not climb
-  onto boxes, hop gaps or drop off ledges your objects make. Placed ladders are
-  the exception: bots climb them when both ends have navigation.
-- Where the base map ships no navigation at all (for example a map built on the
-  extended terrain outside the original play area), the game builds it for your
-  whole combat area, and there bots can jump and vault some low obstacles, such
-  as sandbags in a window. Those jumps and vaults are not drawn yet.
+- Bots do not climb onto boxes, hop gaps or drop off ledges your objects
+  make: the game gives your objects no jump, drop or vault links. Placed
+  ladders are the exception: bots climb them when both ends have navigation.
+- The navigation ends at your combat area's outline. A bot outside it has
+  none under it.
+- A bot that cannot reach where it is sent walks to the start of the walkable
+  patch nearest the target and stops there. It does not push on, and sending
+  it again does not help.
+- Bots that start off the navigation (for example outside the combat area)
+  walk straight at their target instead; when something blocks them they jump
+  once, which is how they sometimes get over sandbags. They never try twice.
 - Destructible railings block bots completely. Doors do not block bots.
 
+## Custom terrain
+
+If your map has a Terrain3D, the sheet stands on its ground instead of the
+base map's, and every square of your combat area is rebuilt on it, as the game
+does when the experience loads. Terrain edits are picked up as you make them.
+A large map takes about ten seconds the first time. In the game, bots ordered
+in the first minute of a match can still be on the base map's old navigation
+while the game rebuilds it. Needs High Poly 3.2.0.
+
 These rules were checked against live bots on 115 test lanes, and the sheet
-agreed on 114.
+agreed on 114. On a community Caspian Border map built on Portal Ocean's custom
+terrain, the sheet lay on average within 0.1 m of the navigation the game
+built, and every test bot's route matched.
 
 ## Install
 

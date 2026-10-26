@@ -3,101 +3,109 @@
   "version": 1,
   "plugins": {
     "BF6_Extended_Terrain": {
-      "version": "2.0.1",
-      "tag": "BF6_Extended_Terrain-v2.0.1",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Extended_Terrain-v2.0.1/BF6_Extended_Terrain-2.0.1.zip",
-      "sha256": "16564baba0b12500f3344e61d13c725111f946d4af2808c797b5a1babfee7dd1",
-      "size": 2530487,
-      "changes": "The Toolbox that comes with it is the same as the other tools' current one, which lists Bot Navigation. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself.",
+      "version": "2.0.2",
+      "tag": "BF6_Extended_Terrain-v2.0.2",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Extended_Terrain-v2.0.2/BF6_Extended_Terrain-2.0.2.zip",
+      "sha256": "b7d1fd70ab909444683a2a6974451d01957f4dcbed32fdfacea090edb9e582ad",
+      "size": 2531261,
+      "changes": "The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand.",
       "history": {
         "1.2.0": "Open Extended Terrain in the Toolbox using the shared season style. Read terrain indexes and terrain packs from the Toolbox repository.",
         "1.2.1": "Comes with the Toolbox, which now installs with the plugin itself, with or without BF6 Home. It lists every plugin with its installed version, shows when an update is available and what changed before you update, and can add the other released plugins.",
-        "2.0.0": "Reads the terrain and the distant landscape from your Battlefield 6 install through High Poly, so it now needs High Poly installed, like Player Controller. Nothing is downloaded any more and nothing is saved into your map. A \"Remove old downloaded terrain\" button clears what earlier versions placed and downloaded."
+        "2.0.0": "Reads the terrain and the distant landscape from your Battlefield 6 install through High Poly, so it now needs High Poly installed, like Player Controller. Nothing is downloaded any more and nothing is saved into your map. A \"Remove old downloaded terrain\" button clears what earlier versions placed and downloaded.",
+        "2.0.1": "The Toolbox that comes with it is the same as the other tools' current one, which lists Bot Navigation. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself."
       }
     },
     "BF6_Godot_Bot_Navigation": {
-      "version": "0.2.1",
-      "tag": "BF6_Godot_Bot_Navigation-v0.2.1",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_Bot_Navigation-v0.2.1/BF6_Godot_Bot_Navigation-0.2.1.zip",
-      "sha256": "c082e4b4641835165b6fa6a308f290534d2ab894515d50769a7f39d888c1615d",
-      "size": 2546944,
-      "changes": "First release, as a beta. See where bots can go on the open map, and what they will do on yours: the navigation rebuilt under your placed objects as you edit, where bots walk, crouch and crawl, low ceilings that can trap them, platforms too small for navigation, what your spawners cannot reach, and the route between two selected nodes. Needs High Poly.",
+      "version": "0.3.0",
+      "tag": "BF6_Godot_Bot_Navigation-v0.3.0",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_Bot_Navigation-v0.3.0/BF6_Godot_Bot_Navigation-0.3.0.zip",
+      "sha256": "e0d694994ff3e3c85b06da6d4b171dd371ee8219c6d66f72af2bfb0c9b515aca",
+      "size": 2551805,
+      "changes": "Maps with custom terrain: the sheet stands on your Terrain3D ground, as the game rebuilds it, and follows your terrain edits. The sheet ends at the combat area, as the game's does. A route that cannot reach its target stops where the game's bots stop. Starts up to 5.5 m from the navigation still get a route; white posts now mark starts farther than that, whose bots never move. Builds about forty times faster: a large custom terrain map takes about ten seconds. Custom terrain and the faster build need High Poly 3.2.0. The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand.",
       "history": {
-        "0.2.0": "First release, as a beta. See where bots can go on the open map, and what they will do on yours: the navigation rebuilt under your placed objects as you edit, where bots walk, crouch and crawl, low ceilings that can trap them, platforms too small for navigation, what your spawners cannot reach, and the route between two selected nodes. Needs High Poly."
+        "0.2.0": "First release, as a beta. See where bots can go on the open map, and what they will do on yours: the navigation rebuilt under your placed objects as you edit, where bots walk, crouch and crawl, low ceilings that can trap them, platforms too small for navigation, what your spawners cannot reach, and the route between two selected nodes. Needs High Poly.",
+        "0.2.1": "First release, as a beta. See where bots can go on the open map, and what they will do on yours: the navigation rebuilt under your placed objects as you edit, where bots walk, crouch and crawl, low ceilings that can trap them, platforms too small for navigation, what your spawners cannot reach, and the route between two selected nodes. Needs High Poly."
       }
     },
     "BF6_Godot_Early_Bird": {
-      "version": "1.0.2",
-      "tag": "BF6_Godot_Early_Bird-v1.0.2",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_Early_Bird-v1.0.2/BF6_Godot_Early_Bird-1.0.2.zip",
-      "sha256": "259b44dfc9e850aab498f95b9c0ad034b39782a9f41215df24f84f61099164d8",
-      "size": 2551275,
-      "changes": "Shorter README; the full details moved to docs/DETAILS.md. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself.",
+      "version": "1.0.3",
+      "tag": "BF6_Godot_Early_Bird-v1.0.3",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_Early_Bird-v1.0.3/BF6_Godot_Early_Bird-1.0.3.zip",
+      "sha256": "d5e270dfb1142aae35fb4994927867d8ed16e11c956641539646d3d0d6cf4d9e",
+      "size": 2552057,
+      "changes": "The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand.",
       "history": {
         "1.0.0": "First release. Installs maps your game has that the Portal SDK does not ship yet, as SDK level scenes with their objects in the Object Library, and removes them again. Needs High Poly.",
-        "1.0.1": "Shorter README; the full details moved to docs/DETAILS.md."
+        "1.0.1": "Shorter README; the full details moved to docs/DETAILS.md.",
+        "1.0.2": "Shorter README; the full details moved to docs/DETAILS.md. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself."
       }
     },
     "BF6_Godot_Gamemode_Setup": {
-      "version": "2.0.2",
-      "tag": "BF6_Godot_Gamemode_Setup-v2.0.2",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_Gamemode_Setup-v2.0.2/BF6_Godot_Gamemode_Setup-2.0.2.zip",
-      "sha256": "d4dd3a06f75b64ebbdc85f3a239429119f3d56ec828c77ccab65dc00eeec0601",
-      "size": 2927224,
-      "changes": "Shorter README; the full details moved to docs/DETAILS.md. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself.",
+      "version": "2.0.3",
+      "tag": "BF6_Godot_Gamemode_Setup-v2.0.3",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_Gamemode_Setup-v2.0.3/BF6_Godot_Gamemode_Setup-2.0.3.zip",
+      "sha256": "743db64df4e86c6821442de5eac4546d61780df74ac89c8a7bf45392c8b24967",
+      "size": 2927999,
+      "changes": "The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand.",
       "history": {
         "1.6.0": "Open Game Mode Setup in the Toolbox. Wrap long labels and fit the panel into narrow docks. Read layout indexes and published layout data from the Toolbox repository.",
         "1.6.1": "Comes with the Toolbox, which now installs with the plugin itself, with or without BF6 Home. It lists every plugin with its installed version, shows when an update is available and what changed before you update, and can add the other released plugins.",
         "2.0.0": "Reads every layout from your Battlefield 6 install through High Poly, so it now needs High Poly installed. Layouts are no longer downloaded. Carrier Strike builds without the carrier model preview.",
-        "2.0.1": "Shorter README; the full details moved to docs/DETAILS.md."
+        "2.0.1": "Shorter README; the full details moved to docs/DETAILS.md.",
+        "2.0.2": "Shorter README; the full details moved to docs/DETAILS.md. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself."
       }
     },
     "BF6_Godot_Player_Controller": {
-      "version": "1.1.1",
-      "tag": "BF6_Godot_Player_Controller-v1.1.1",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_Player_Controller-v1.1.1/BF6_Godot_Player_Controller-1.1.1.zip",
-      "sha256": "77ac798b7a4fe85b43b29f5e5dde3f56576a8fc4ed3ec3adcc009765cf449fd9",
-      "size": 2534947,
-      "changes": "The game's Master and Effects volume sliders in the panel, the same pair the Soundboard shows. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself.",
+      "version": "1.1.2",
+      "tag": "BF6_Godot_Player_Controller-v1.1.2",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_Player_Controller-v1.1.2/BF6_Godot_Player_Controller-1.1.2.zip",
+      "sha256": "135086d2e0ce54b9fbee4dd36d3c865feceb4e196c919cb7ee3a452687655f25",
+      "size": 2535726,
+      "changes": "The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand.",
       "history": {
         "1.0.0": "First release. Walk the map in first person from any soldier or loot spawner, or from the editor camera, as the soldier who stands there with their loadout. Needs High Poly.",
-        "1.1.0": "The game's Master and Effects volume sliders in the panel, the same pair the Soundboard shows."
+        "1.1.0": "The game's Master and Effects volume sliders in the panel, the same pair the Soundboard shows.",
+        "1.1.1": "The game's Master and Effects volume sliders in the panel, the same pair the Soundboard shows. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself."
       }
     },
     "BF6_Godot_SImple_Collisions": {
-      "version": "1.0.2",
-      "tag": "BF6_Godot_SImple_Collisions-v1.0.2",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_SImple_Collisions-v1.0.2/BF6_Godot_SImple_Collisions-1.0.2.zip",
-      "sha256": "aaa8a75c4d3781049bf905d3495bcbcafd26a16250493f567ed775c8701f2868",
-      "size": 2549187,
-      "changes": "The Toolbox that comes with it is the same as the other tools' current one, which lists Bot Navigation. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself.",
+      "version": "1.0.3",
+      "tag": "BF6_Godot_SImple_Collisions-v1.0.3",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_SImple_Collisions-v1.0.3/BF6_Godot_SImple_Collisions-1.0.3.zip",
+      "sha256": "594aa34894b9f94e74ef9e956c0a7699fd64b7e2096a3b425c300a78ce85f92c",
+      "size": 2549960,
+      "changes": "The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand.",
       "history": {
         "1.0.0": "First release. Preview approximate collisions on drawn objects, with Show collision, Selected only and Isolate. Comes with the Toolbox, which now installs with the plugin itself, with or without BF6 Home. It lists every plugin with its installed version, shows when an update is available and what changed before you update, and can add the other released plugins.",
-        "1.0.1": "The Toolbox that comes with it lists the new tools: High Poly 3.0.0, Player Controller, Soundboard and Early Bird, and Game Mode Setup and Extended Terrain 2.0.0."
+        "1.0.1": "The Toolbox that comes with it lists the new tools: High Poly 3.0.0, Player Controller, Soundboard and Early Bird, and Game Mode Setup and Extended Terrain 2.0.0.",
+        "1.0.2": "The Toolbox that comes with it is the same as the other tools' current one, which lists Bot Navigation. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself."
       }
     },
     "BF6_High_Poly_Godot_Plugin": {
-      "version": "3.1.1",
-      "tag": "v3.1.1",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/v3.1.1/BF6_High_Poly_Godot_Plugin-3.1.1.zip",
-      "sha256": "0ed031ad0627850172191740e2c8f9138df789c068137e54c9f1e64d2c9b8e78",
-      "size": 11149599,
-      "changes": "Reads bot navigation for the new Bot Navigation tool, shares built geometry across maps and game updates, plays sounds at the game's own Master and Effects volume, and fixes Object Library icons, furniture cut-outs and prop paint after the October game update. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself.",
+      "version": "3.2.0",
+      "tag": "v3.2.0",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/v3.2.0/BF6_High_Poly_Godot_Plugin-3.2.0.zip",
+      "sha256": "2c8adaf81b7863ea7a709bd3a16d2561ae25a69d06342e8cc23af29c86fa59c1",
+      "size": 11153637,
+      "changes": "Map indexes are kept when High Poly updates: from this version on an update no longer re-reads every map (this one still rebuilds them once). The caching screen has a Recache button beside each stage and on every map, to redo just that part. Bot navigation is built about forty times faster and can stand on a map's custom terrain, for Bot Navigation 0.3.0. The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand.",
       "history": {
         "3.0.0": "Comes with the Toolbox. No longer ships any tables built from game data: everything is read from your install. Updates from 2.10 through a bridge release, and the updater now replaces libraries the editor has loaded instead of skipping them.",
-        "3.1.0": "Reads bot navigation for the new Bot Navigation tool, shares built geometry across maps and game updates, plays sounds at the game's own Master and Effects volume, and fixes Object Library icons, furniture cut-outs and prop paint after the October game update."
+        "3.1.0": "Reads bot navigation for the new Bot Navigation tool, shares built geometry across maps and game updates, plays sounds at the game's own Master and Effects volume, and fixes Object Library icons, furniture cut-outs and prop paint after the October game update.",
+        "3.1.1": "Reads bot navigation for the new Bot Navigation tool, shares built geometry across maps and game updates, plays sounds at the game's own Master and Effects volume, and fixes Object Library icons, furniture cut-outs and prop paint after the October game update. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself."
       }
     },
     "BF6_Soundboard": {
-      "version": "1.1.1",
-      "tag": "BF6_Soundboard-v1.1.1",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Soundboard-v1.1.1/BF6_Soundboard-1.1.1.zip",
-      "sha256": "3dc30829fab8ec17938af6a30fd70e9d6fc9a2e5328dbab4ac3fe2454ebbb727",
-      "size": 2654800,
-      "changes": "The game's own Master and Effects volume sliders, so sounds play as loud as they are in the game. The range sliders never filter the list down to nothing. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself.",
+      "version": "1.1.2",
+      "tag": "BF6_Soundboard-v1.1.2",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Soundboard-v1.1.2/BF6_Soundboard-1.1.2.zip",
+      "sha256": "dcba5c66548cecea76ede397c3737cacf1342e51e3a1a9174135a9d0af1953fc",
+      "size": 2655581,
+      "changes": "The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand.",
       "history": {
         "1.0.0": "First release. Every Portal sound by its exact SDK name, with search, filters and waveforms; play it from your install, copy the line that plays it, or place it in the map. Needs High Poly.",
-        "1.1.0": "The game's own Master and Effects volume sliders, so sounds play as loud as they are in the game. The range sliders never filter the list down to nothing."
+        "1.1.0": "The game's own Master and Effects volume sliders, so sounds play as loud as they are in the game. The range sliders never filter the list down to nothing.",
+        "1.1.1": "The game's own Master and Effects volume sliders, so sounds play as loud as they are in the game. The range sliders never filter the list down to nothing. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself."
       }
     }
   }

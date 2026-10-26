@@ -19,7 +19,7 @@ the copy of the game on your machine.
 | [Soundboard](tools/soundboard.md) | Every Portal sound by its exact SDK name, with search, filters and waveforms. Hear it, copy the script line that plays it, or place it. | High Poly |
 | [Early Bird](tools/early-bird.md) | Installs maps your game has that the SDK does not ship yet, as SDK level scenes with their objects in the Object Library. | High Poly |
 | [Game Mode Setup](tools/game-mode-setup.md) | Builds a map's official game mode layouts (Conquest, Breakthrough, Rush and the rest) as editable Portal objects. | High Poly |
-| [Bot Navigation](tools/bot-navigation.md) (beta) | Where bots can go on your map: the navigation rebuilt under your objects as you edit, where bots walk, crouch and crawl, what they cannot reach, and the route between two points. | High Poly |
+| [Bot Navigation](tools/bot-navigation.md) (beta) | Where bots can go on your map: the navigation rebuilt under your objects and on your custom terrain as you edit, where bots walk, crouch and crawl, what they cannot reach, and the route between two points. | High Poly |
 | [Extended Terrain](tools/extended-terrain.md) | Shows the ground outside the playable area and the distant landscape around it. | High Poly |
 | [Simple Collisions](tools/simple-collisions.md) | Draws a quick collision approximation over placed objects. | Nothing else |
 
@@ -40,7 +40,9 @@ BF2042 Terrain.
 The Toolbox dock comes with every tool. From then on, add and update the others
 from there. When several tools have updates, press **Update** on each of them
 before you restart the editor: they share the Toolbox's files, so they update
-together.
+together. If GitHub cannot be reached from your network, set a proxy in
+**Editor Settings > Network > HTTP Proxy** and restart, or download the tools
+from [Releases](../../releases) and unzip them by hand.
 
 ## Updating from High Poly 2.10
 

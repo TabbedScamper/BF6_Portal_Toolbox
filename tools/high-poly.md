@@ -16,7 +16,11 @@ changes them, and your level file is the same with it on or off.
 
 Nothing is downloaded and nothing is hosted. After a game update, the map you
 open next is simply read again. The first read of a map takes a minute or so;
-after that it comes from a cache on your machine.
+after that it comes from a cache on your machine, which High Poly updates keep.
+
+The caching screen (High Poly panel > **Show caching progress**) has a
+**Recache** button beside each stage and on every map, to redo just that part
+if something looks wrong.
 
 ## What it shows
 
@@ -37,7 +41,7 @@ Setup, Extended Terrain and Bot Navigation read the game through.
 
 ## Install
 
-Download `BF6_High_Poly_Godot_Plugin-3.1.1.zip` from
+Download `BF6_High_Poly_Godot_Plugin-3.2.0.zip` from
 [Releases](../../../releases), unzip it into your Portal SDK project folder,
 and enable **BF6 High-Poly Preview** under
 **Project > Project Settings > Plugins**. The Toolbox dock comes with it.
@@ -45,5 +49,5 @@ and enable **BF6 High-Poly Preview** under
 ## Updating from 2.10
 
 Press **Check for updates** in High Poly 2.10.0. It installs a small bridge
-release first, which then installs 3.1.1 together with the Toolbox. Restart the
+release first, which then installs 3.2.0 together with the Toolbox. Restart the
 editor when it asks.
