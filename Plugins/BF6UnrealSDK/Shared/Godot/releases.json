@@ -17,15 +17,16 @@
       }
     },
     "BF6_Godot_Bot_Navigation": {
-      "version": "0.3.0",
-      "tag": "BF6_Godot_Bot_Navigation-v0.3.0",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_Bot_Navigation-v0.3.0/BF6_Godot_Bot_Navigation-0.3.0.zip",
-      "sha256": "e0d694994ff3e3c85b06da6d4b171dd371ee8219c6d66f72af2bfb0c9b515aca",
-      "size": 2551805,
-      "changes": "Maps with custom terrain: the sheet stands on your Terrain3D ground, as the game rebuilds it, and follows your terrain edits. The sheet ends at the combat area, as the game's does. A route that cannot reach its target stops where the game's bots stop. Starts up to 5.5 m from the navigation still get a route; white posts now mark starts farther than that, whose bots never move. Builds about forty times faster: a large custom terrain map takes about ten seconds. Custom terrain and the faster build need High Poly 3.2.0. The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand.",
+      "version": "0.3.1",
+      "tag": "BF6_Godot_Bot_Navigation-v0.3.1",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_Bot_Navigation-v0.3.1/BF6_Godot_Bot_Navigation-0.3.1.zip",
+      "sha256": "5a643e93b0cc8736e1466859a3db7880c3b2d0c2f935c136b859b92eebacd3c0",
+      "size": 2552114,
+      "changes": "The map view no longer searches the whole scene for the combat area and the custom terrain four times a second: with High Poly's map in the scene that search caused a regular stutter in the editor. It now looks only among your own objects.",
       "history": {
         "0.2.0": "First release, as a beta. See where bots can go on the open map, and what they will do on yours: the navigation rebuilt under your placed objects as you edit, where bots walk, crouch and crawl, low ceilings that can trap them, platforms too small for navigation, what your spawners cannot reach, and the route between two selected nodes. Needs High Poly.",
-        "0.2.1": "First release, as a beta. See where bots can go on the open map, and what they will do on yours: the navigation rebuilt under your placed objects as you edit, where bots walk, crouch and crawl, low ceilings that can trap them, platforms too small for navigation, what your spawners cannot reach, and the route between two selected nodes. Needs High Poly."
+        "0.2.1": "First release, as a beta. See where bots can go on the open map, and what they will do on yours: the navigation rebuilt under your placed objects as you edit, where bots walk, crouch and crawl, low ceilings that can trap them, platforms too small for navigation, what your spawners cannot reach, and the route between two selected nodes. Needs High Poly.",
+        "0.3.0": "Maps with custom terrain: the sheet stands on your Terrain3D ground, as the game rebuilds it, and follows your terrain edits. The sheet ends at the combat area, as the game's does. A route that cannot reach its target stops where the game's bots stop. Starts up to 5.5 m from the navigation still get a route; white posts now mark starts farther than that, whose bots never move. Builds about forty times faster: a large custom terrain map takes about ten seconds. Custom terrain and the faster build need High Poly 3.2.0. The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand."
       }
     },
     "BF6_Godot_Early_Bird": {
@@ -83,17 +84,18 @@
       }
     },
     "BF6_High_Poly_Godot_Plugin": {
-      "version": "3.2.1",
-      "tag": "v3.2.1",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/v3.2.1/BF6_High_Poly_Godot_Plugin-3.2.1.zip",
-      "sha256": "d13d0924f08bad402124e0a6dd21dfe782342ff3bf86e540e320374fb2ad4497",
-      "size": 11154548,
-      "changes": "Fixes the caching screen freezing in the Object previews stage, and a memory leak that let High Poly's memory grow with every texture it read: drawing every object icon reached over 40 GB and now stays flat. Walking with Player Controller no longer leaks memory either.",
+      "version": "3.2.2",
+      "tag": "v3.2.2",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/v3.2.2/BF6_High_Poly_Godot_Plugin-3.2.2.zip",
+      "sha256": "50dd611be4b5c04988e7a3b6b4f5e8a3583d3861df9eac93c5e28d0e86941a01",
+      "size": 11157016,
+      "changes": "Smoother flying in the editor: grass is built off the editor's main thread and map tiles appear a few at a time, so the half-second hitches while flying are gone (worst frame about 200 ms before, about 37 ms now). An update no longer redraws every object icon or rebuilds caches whose contents did not change. Opening a map with a prepared cache no longer crashes the editor, and meshes are cached again. Distance culling measures objects at their real size, so large scaled objects such as water planes no longer disappear up close.",
       "history": {
         "3.0.0": "Comes with the Toolbox. No longer ships any tables built from game data: everything is read from your install. Updates from 2.10 through a bridge release, and the updater now replaces libraries the editor has loaded instead of skipping them.",
         "3.1.0": "Reads bot navigation for the new Bot Navigation tool, shares built geometry across maps and game updates, plays sounds at the game's own Master and Effects volume, and fixes Object Library icons, furniture cut-outs and prop paint after the October game update.",
         "3.1.1": "Reads bot navigation for the new Bot Navigation tool, shares built geometry across maps and game updates, plays sounds at the game's own Master and Effects volume, and fixes Object Library icons, furniture cut-outs and prop paint after the October game update. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself.",
-        "3.2.0": "Map indexes are kept when High Poly updates: from this version on an update no longer re-reads every map (this one still rebuilds them once). The caching screen has a Recache button beside each stage and on every map, to redo just that part. Bot navigation is built about forty times faster and can stand on a map's custom terrain, for Bot Navigation 0.3.0. The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand."
+        "3.2.0": "Map indexes are kept when High Poly updates: from this version on an update no longer re-reads every map (this one still rebuilds them once). The caching screen has a Recache button beside each stage and on every map, to redo just that part. Bot navigation is built about forty times faster and can stand on a map's custom terrain, for Bot Navigation 0.3.0. The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand.",
+        "3.2.1": "Fixes the caching screen freezing in the Object previews stage, and a memory leak that let High Poly's memory grow with every texture it read: drawing every object icon reached over 40 GB and now stays flat. Walking with Player Controller no longer leaks memory either."
       }
     },
     "BF6_Soundboard": {
