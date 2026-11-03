@@ -84,18 +84,19 @@
       }
     },
     "BF6_High_Poly_Godot_Plugin": {
-      "version": "3.2.2",
-      "tag": "v3.2.2",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/v3.2.2/BF6_High_Poly_Godot_Plugin-3.2.2.zip",
-      "sha256": "50dd611be4b5c04988e7a3b6b4f5e8a3583d3861df9eac93c5e28d0e86941a01",
-      "size": 11157016,
-      "changes": "Smoother flying in the editor: grass is built off the editor's main thread and map tiles appear a few at a time, so the half-second hitches while flying are gone (worst frame about 200 ms before, about 37 ms now). An update no longer redraws every object icon or rebuilds caches whose contents did not change. Opening a map with a prepared cache no longer crashes the editor, and meshes are cached again. Distance culling measures objects at their real size, so large scaled objects such as water planes no longer disappear up close.",
+      "version": "3.2.3",
+      "tag": "v3.2.3",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/v3.2.3/BF6_High_Poly_Godot_Plugin-3.2.3.zip",
+      "sha256": "e908faaf1e2412e99929987debe02a6e520b49ee7c92efc7f132538c2dec8a15",
+      "size": 11156677,
+      "changes": "Placing objects with High Poly on works like Low Poly again: dragged and moved objects snap onto surfaces, because High Poly no longer takes away the objects' collision while it shows the full models. Keeping it costs nothing measurable while flying.",
       "history": {
         "3.0.0": "Comes with the Toolbox. No longer ships any tables built from game data: everything is read from your install. Updates from 2.10 through a bridge release, and the updater now replaces libraries the editor has loaded instead of skipping them.",
         "3.1.0": "Reads bot navigation for the new Bot Navigation tool, shares built geometry across maps and game updates, plays sounds at the game's own Master and Effects volume, and fixes Object Library icons, furniture cut-outs and prop paint after the October game update.",
         "3.1.1": "Reads bot navigation for the new Bot Navigation tool, shares built geometry across maps and game updates, plays sounds at the game's own Master and Effects volume, and fixes Object Library icons, furniture cut-outs and prop paint after the October game update. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself.",
         "3.2.0": "Map indexes are kept when High Poly updates: from this version on an update no longer re-reads every map (this one still rebuilds them once). The caching screen has a Recache button beside each stage and on every map, to redo just that part. Bot navigation is built about forty times faster and can stand on a map's custom terrain, for Bot Navigation 0.3.0. The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand.",
-        "3.2.1": "Fixes the caching screen freezing in the Object previews stage, and a memory leak that let High Poly's memory grow with every texture it read: drawing every object icon reached over 40 GB and now stays flat. Walking with Player Controller no longer leaks memory either."
+        "3.2.1": "Fixes the caching screen freezing in the Object previews stage, and a memory leak that let High Poly's memory grow with every texture it read: drawing every object icon reached over 40 GB and now stays flat. Walking with Player Controller no longer leaks memory either.",
+        "3.2.2": "Smoother flying in the editor: grass is built off the editor's main thread and map tiles appear a few at a time, so the half-second hitches while flying are gone (worst frame about 200 ms before, about 37 ms now). An update no longer redraws every object icon or rebuilds caches whose contents did not change. Opening a map with a prepared cache no longer crashes the editor, and meshes are cached again. Distance culling measures objects at their real size, so large scaled objects such as water planes no longer disappear up close."
       }
     },
     "BF6_Soundboard": {
