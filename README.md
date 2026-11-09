@@ -22,10 +22,11 @@ the copy of the game on your machine.
 | [Bot Navigation](tools/bot-navigation.md) (beta) | Where bots can go on your map: the navigation rebuilt under your objects and on your custom terrain as you edit, where bots walk, crouch and crawl, what they cannot reach, and the route between two points. | High Poly |
 | [Extended Terrain](tools/extended-terrain.md) | Shows the ground outside the playable area and the distant landscape around it. | High Poly |
 | [Simple Collisions](tools/simple-collisions.md) | Draws a quick collision approximation over placed objects. | Nothing else |
+| [UI Editor](tools/ui-editor.md) (preview) | Design, animate and hear Portal UI in Godot, with a weapon builder for weapon pictures, then export it as code your mode runs. | Nothing else (High Poly for game pictures and sounds) |
 
 In development, and shown greyed out in the Toolbox until they are ready: BF6
 Home, Changes, Game Log, Experience, Blockly, Portal Connect, Extended
-Workspace, Prop Organizer, UI Editor, TypeScript Editor, BF2 Importer and
+Workspace, Prop Organizer, TypeScript Editor, BF2 Importer and
 BF2042 Terrain.
 
 ## Install
@@ -55,7 +56,7 @@ version, from the Toolbox or High Poly's own button.
 
 - The Battlefield Portal SDK (its Godot editor, 4.6).
 - Windows.
-- For every tool except Simple Collisions: Battlefield 6 installed (Steam or
+- For every tool except Simple Collisions and the UI Editor: Battlefield 6 installed (Steam or
   EA app), with High Poly pointed at it.
 
 ## License

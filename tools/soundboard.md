@@ -27,6 +27,8 @@ Soundboard without it.
   the editor camera, and selects it.
 - **Master** and **Effects** are the game's own volume sliders: sounds play as
   loud as they are in the game.
+- **Radio** at the top: the Portal radio stations in the game's own order, plus
+  the BF Pro station and the credits music, with shuffle and its own volume.
 - Announcer voice-over is listed but cannot be played yet.
 
 The first start reads the install's sound list (about a minute). The list and
