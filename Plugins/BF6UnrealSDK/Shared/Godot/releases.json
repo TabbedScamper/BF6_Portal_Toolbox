@@ -90,12 +90,12 @@
       }
     },
     "BF6_High_Poly_Godot_Plugin": {
-      "version": "3.3.0",
-      "tag": "v3.3.0",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/v3.3.0/BF6_High_Poly_Godot_Plugin-3.3.0.zip",
-      "sha256": "9143feb262b92e3c70b2fe762355cfcb3c62b4fb325531767c7b822e93a78d69",
-      "size": 11191718,
-      "changes": "Weapon and gadget pictures, world icons and crowns for the UI Editor, drawn the way the game draws them, and the radio for the Soundboard, all read from your install. Game files are read with the layouts they were written with, which fixes values that read wrong on many files. Maps open about twice as fast and the editor starts faster. Terrain heights match the game exactly. Particle effects use the game's per-particle seeds, lifetimes and sheet timing. The Toolbox can now add the UI Editor.",
+      "version": "3.3.1",
+      "tag": "v3.3.1",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/v3.3.1/BF6_High_Poly_Godot_Plugin-3.3.1.zip",
+      "sha256": "d611c9c83b72465556e091b242a01741e71b6ea70568b4a9fd8a5ae604785414",
+      "size": 11191884,
+      "changes": "Fixes an editor freeze: moving High Poly's panel waited for the cache size to be measured, which on a large cache took minutes, and then filled the log with \"Invalid Task ID\" errors.",
       "history": {
         "3.0.0": "Comes with the Toolbox. No longer ships any tables built from game data: everything is read from your install. Updates from 2.10 through a bridge release, and the updater now replaces libraries the editor has loaded instead of skipping them.",
         "3.1.0": "Reads bot navigation for the new Bot Navigation tool, shares built geometry across maps and game updates, plays sounds at the game's own Master and Effects volume, and fixes Object Library icons, furniture cut-outs and prop paint after the October game update.",
@@ -103,21 +103,23 @@
         "3.2.0": "Map indexes are kept when High Poly updates: from this version on an update no longer re-reads every map (this one still rebuilds them once). The caching screen has a Recache button beside each stage and on every map, to redo just that part. Bot navigation is built about forty times faster and can stand on a map's custom terrain, for Bot Navigation 0.3.0. The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand.",
         "3.2.1": "Fixes the caching screen freezing in the Object previews stage, and a memory leak that let High Poly's memory grow with every texture it read: drawing every object icon reached over 40 GB and now stays flat. Walking with Player Controller no longer leaks memory either.",
         "3.2.2": "Smoother flying in the editor: grass is built off the editor's main thread and map tiles appear a few at a time, so the half-second hitches while flying are gone (worst frame about 200 ms before, about 37 ms now). An update no longer redraws every object icon or rebuilds caches whose contents did not change. Opening a map with a prepared cache no longer crashes the editor, and meshes are cached again. Distance culling measures objects at their real size, so large scaled objects such as water planes no longer disappear up close.",
-        "3.2.3": "Placing objects with High Poly on works like Low Poly again: dragged and moved objects snap onto surfaces, because High Poly no longer takes away the objects' collision while it shows the full models. Keeping it costs nothing measurable while flying."
+        "3.2.3": "Placing objects with High Poly on works like Low Poly again: dragged and moved objects snap onto surfaces, because High Poly no longer takes away the objects' collision while it shows the full models. Keeping it costs nothing measurable while flying.",
+        "3.3.0": "Weapon and gadget pictures, world icons and crowns for the UI Editor, drawn the way the game draws them, and the radio for the Soundboard, all read from your install. Game files are read with the layouts they were written with, which fixes values that read wrong on many files. Maps open about twice as fast and the editor starts faster. Terrain heights match the game exactly. Particle effects use the game's per-particle seeds, lifetimes and sheet timing. The Toolbox can now add the UI Editor."
       }
     },
     "BF6_Soundboard": {
-      "version": "1.2.0",
-      "tag": "BF6_Soundboard-v1.2.0",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Soundboard-v1.2.0/BF6_Soundboard-1.2.0.zip",
-      "sha256": "04a848b2b1a270295585fd55f1f2b34bd8b26c5798564c63a970917ebf212608",
-      "size": 2659581,
-      "changes": "A radio at the top of the Soundboard, to listen to while you work: the Portal radio stations in the game's own order, plus the BF Pro station and the credits music, with shuffle and its own volume. Needs High Poly 3.3.0. The Toolbox can now add the UI Editor.",
+      "version": "1.2.1",
+      "tag": "BF6_Soundboard-v1.2.1",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Soundboard-v1.2.1/BF6_Soundboard-1.2.1.zip",
+      "sha256": "571ecb413450f7b077afb247ff9f6fdda3c06764dd1f1209601165d77f45737e",
+      "size": 2660476,
+      "changes": "The editor no longer stalls while the Soundboard reads your install: the install is opened in the background instead of while the editor starts, waveforms are read one page at a time without reading a sound twice, and moving or hiding the Soundboard never waits for the radio. Needs High Poly 3.3.0 or newer.",
       "history": {
         "1.0.0": "First release. Every Portal sound by its exact SDK name, with search, filters and waveforms; play it from your install, copy the line that plays it, or place it in the map. Needs High Poly.",
         "1.1.0": "The game's own Master and Effects volume sliders, so sounds play as loud as they are in the game. The range sliders never filter the list down to nothing.",
         "1.1.1": "The game's own Master and Effects volume sliders, so sounds play as loud as they are in the game. The range sliders never filter the list down to nothing. The Toolbox's installer no longer refuses to update tools or add new ones after High Poly has updated itself.",
-        "1.1.2": "The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand."
+        "1.1.2": "The Toolbox uses the HTTP proxy set in Editor Settings > Network > HTTP Proxy, and when it cannot reach GitHub it says so and points to the releases page for installing by hand.",
+        "1.2.0": "A radio at the top of the Soundboard, to listen to while you work: the Portal radio stations in the game's own order, plus the BF Pro station and the credits music, with shuffle and its own volume. Needs High Poly 3.3.0. The Toolbox can now add the UI Editor."
       }
     },
     "BF6_Godot_UI_Editor": {
