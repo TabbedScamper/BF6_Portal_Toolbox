@@ -121,13 +121,15 @@
       }
     },
     "BF6_Godot_UI_Editor": {
-      "version": "0.1.0",
-      "tag": "BF6_Godot_UI_Editor-v0.1.0",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_UI_Editor-v0.1.0/BF6_Godot_UI_Editor-0.1.0.zip",
-      "sha256": "a76d70f590cfb681b96671b69d5e2ae64d4ad316df4ebf215f29f89602d40e99",
-      "size": 4044795,
-      "changes": "First release (preview). Design, animate and hear Portal UI in Godot and export it as code your mode script runs. Includes a weapon builder for weapon pictures; pictures, sounds and the radio need High Poly.",
-      "history": {}
+      "version": "0.1.1",
+      "tag": "BF6_Godot_UI_Editor-v0.1.1",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_UI_Editor-v0.1.1/BF6_Godot_UI_Editor-0.1.1.zip",
+      "sha256": "1e7d937bf0e41e1a5e3610bb39daa8ecefb953e8552181fcd5b99a00780dc662",
+      "size": 4045832,
+      "changes": "Fixes for a first install. Sounds and the radio say what to add when High Poly or the Soundboard is missing. With no game mode open, a design's texts are saved beside it in the project's ui folder. The weapon and gadget pickers list every item without High Poly, and the settings say plainly what High Poly adds. The Template picker works with the keyboard (arrows to choose, Enter to load), and keys in a dropdown no longer move or delete the selected piece.",
+      "history": {
+        "0.1.0": "First release (preview). Design, animate and hear Portal UI in Godot and export it as code your mode script runs. Includes a weapon builder for weapon pictures; pictures, sounds and the radio need High Poly."
+      }
     }
   }
 }
