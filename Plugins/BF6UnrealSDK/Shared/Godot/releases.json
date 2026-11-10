@@ -123,14 +123,15 @@
       }
     },
     "BF6_Godot_UI_Editor": {
-      "version": "0.1.1",
-      "tag": "BF6_Godot_UI_Editor-v0.1.1",
-      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_UI_Editor-v0.1.1/BF6_Godot_UI_Editor-0.1.1.zip",
-      "sha256": "1e7d937bf0e41e1a5e3610bb39daa8ecefb953e8552181fcd5b99a00780dc662",
-      "size": 4045832,
-      "changes": "Fixes for a first install. Sounds and the radio say what to add when High Poly or the Soundboard is missing. With no game mode open, a design's texts are saved beside it in the project's ui folder. The weapon and gadget pickers list every item without High Poly, and the settings say plainly what High Poly adds. The Template picker works with the keyboard (arrows to choose, Enter to load), and keys in a dropdown no longer move or delete the selected piece.",
+      "version": "0.1.2",
+      "tag": "BF6_Godot_UI_Editor-v0.1.2",
+      "url": "https://github.com/TabbedScamper/BF6_Portal_Toolbox/releases/download/BF6_Godot_UI_Editor-v0.1.2/BF6_Godot_UI_Editor-0.1.2.zip",
+      "sha256": "2440491f379712939a9a5e64e42689fd60ada8832825e72843124203047cb397",
+      "size": 4046659,
+      "changes": "With a moment open, dragging or resizing a piece on the canvas moves it from where the moment shows it, and where the moment has keys for its position or size, sets the key at the playhead. Every Listen button turns into Stop while its sound plays, so a sound or song can be stopped without playing the timeline.",
       "history": {
-        "0.1.0": "First release (preview). Design, animate and hear Portal UI in Godot and export it as code your mode script runs. Includes a weapon builder for weapon pictures; pictures, sounds and the radio need High Poly."
+        "0.1.0": "First release (preview). Design, animate and hear Portal UI in Godot and export it as code your mode script runs. Includes a weapon builder for weapon pictures; pictures, sounds and the radio need High Poly.",
+        "0.1.1": "Fixes for a first install. Sounds and the radio say what to add when High Poly or the Soundboard is missing. With no game mode open, a design's texts are saved beside it in the project's ui folder. The weapon and gadget pickers list every item without High Poly, and the settings say plainly what High Poly adds. The Template picker works with the keyboard (arrows to choose, Enter to load), and keys in a dropdown no longer move or delete the selected piece."
       }
     }
   }
