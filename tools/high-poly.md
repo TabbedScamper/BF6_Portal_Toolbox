@@ -31,8 +31,7 @@ if something looks wrong.
 - **Backdrops**: the distant skyline and out-of-bounds scenery.
 - **Water**: rivers, harbours and sea at the real height.
 - **Original map objects**: the level's own buildings, vehicles and props.
-- **Prop Lighting** and **Grass**: the lights placed props carry, and the
-  ground vegetation around the camera.
+- **Prop Lighting**: the lights placed props carry.
 - **Lighting** and **Shadows**: the level's sun, sky, fog and exposure.
 - **Range**: how far all of the above keeps drawing.
 
@@ -41,7 +40,7 @@ Setup, Extended Terrain and Bot Navigation read the game through.
 
 ## Install
 
-Download `BF6_High_Poly_Godot_Plugin-3.3.2.zip` from
+Download `BF6_High_Poly_Godot_Plugin-3.3.4.zip` from
 [Releases](../../../releases), unzip it into your Portal SDK project folder,
 and enable **BF6 High-Poly Preview** under
 **Project > Project Settings > Plugins**. The Toolbox dock comes with it.
@@ -49,5 +48,5 @@ and enable **BF6 High-Poly Preview** under
 ## Updating from 2.10
 
 Press **Check for updates** in High Poly 2.10.0. It installs a small bridge
-release first, which then installs 3.3.2 together with the Toolbox. Restart the
+release first, which then installs 3.3.4 together with the Toolbox. Restart the
 editor when it asks.

@@ -11,7 +11,7 @@ picked up the next time you open the list.
 
 ## Needs
 
-High Poly, pointed at your Battlefield 6 install.
+High Poly 3.3.4 or newer, pointed at your Battlefield 6 install.
 
 ## Using it
 
@@ -30,6 +30,11 @@ Also in the panel:
 - Vehicle and emplacement spawners show the SDK vehicle they spawn, and High
   Poly draws the real vehicle over it. Editor only: the saved scene keeps just
   the spawner.
+- Vehicle spawners get the game's own respawn times. **Set respawn times**
+  applies them to every spawner in the open scene; tick **Custom respawn
+  times** to set your own seconds for each vehicle.
+- **Generate spatial files** writes a Portal spatial file for the selected
+  mode, every mode on the map, or every mode on every map.
 - **Clear cached layouts** deletes the layouts read so far. Nodes already in
   your scene are not touched.
 
